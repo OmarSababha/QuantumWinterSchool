@@ -1,0 +1,230 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+section {
+    padding: 20px;
+}
+
+#overview p {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* Register Now Button Styling - Fuchsia Option */
+.register-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    background: linear-gradient(135deg, #e91e63, #9c27b0); /* Fuchsia gradient */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.register-btn:hover {
+    background: linear-gradient(135deg, #c2185b, #7b1fa2); /* Darker fuchsia on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Justify text in the event description */
+.event-description {
+    text-align: justify;
+}
+
+
+
+/* Center the table and set a max width */
+table {
+    width: 80%;               /* Set table width to 80% of the page */
+    max-width: 800px;         /* Maximum width to prevent it from stretching too wide */
+    margin: 20px auto;        /* Center the table horizontally */
+    border-collapse: collapse;
+    font-size: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Add a slight shadow */
+}
+
+/* Add padding and border styles */
+table th, table td {
+    padding: 12px 15px;       /* Add padding for a more balanced look */
+    border: 1px solid #ddd;
+}
+
+/* Header row styling */
+table th {
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Row styling for alternating colors */
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;  /* Light grey hover effect for rows */
+}
+
+/* Center-align the text in the header and first column */
+table th, table td:first-child {
+    text-align: center;
+}
+
+/* Presenters Section Styling */
+#presenters {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#presenters h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Presenter Card Styling */
+.presenter-card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.presenter-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.presenter-info {
+    text-align: left;
+}
+
+.presenter-info h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #003366;
+}
+
+.presenter-info p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #333;
+}
+
+
+
+/* Style for the logo in the top-right corner */
+.logo {
+    width: 300px;                         /* Adjust size as needed */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;             /* White background for the logo */
+    padding: 5px;                        /* Optional padding for spacing around the logo */
+    border-radius: 5px;                  /* Optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional shadow for a subtle effect */
+}
+
+
+/* How to Get Here Section Styling */
+#get-here {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+#get-here h2 {
+    font-size: 2em;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+#get-here p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Map Image Styling */
+.campus-map {
+    width: 100%;                   /* Makes the image responsive */
+    max-width: 800px;              /* Increased max-width for a larger display */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+
+/* Directions Text Styling */
+.directions {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.directions p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.directions strong {
+    color: #003366;
+}
+
+
+
+
+
