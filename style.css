@@ -224,7 +224,28 @@ table th, table td:first-child {
     color: #003366;
 }
 
+/* Hide overflow for collapsed bio */
+.bio-text {
+    display: inline;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 400px; /* adjust width as needed */
+}
 
+/* Full bio initially hidden */
+.bio-full {
+    display: none;
+}
+
+/* Style for the expand button */
+.expand-btn {
+    background: none;
+    border: none;
+    color: #003366;
+    cursor: pointer;
+    font-weight: bold;
+}
 
 
 
