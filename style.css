@@ -47,6 +47,27 @@ section {
     transition: background 0.3s, transform 0.2s;
 }
 
+.register2-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    background: linear-gradient(135deg, #2196f3, #03a9f4); /* Blue gradient */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.2s;
+}
+
+
+.register2-btn:hover {
+    background: linear-gradient(135deg, #c2185b, #7b1fa2); /* Darker fuchsia on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+
 .register-btn:hover {
     background: linear-gradient(135deg, #c2185b, #7b1fa2); /* Darker fuchsia on hover */
     transform: translateY(-2px);
@@ -165,14 +186,20 @@ table th, table td:first-child {
 /* Style for the logo in the top-right corner */
 .logo {
     width: 300px;                         /* Adjust size as needed */
-    position: absolute;
     top: 20px;
     right: 20px;
-    background-color: white;             /* White background for the logo */
     padding: 5px;                        /* Optional padding for spacing around the logo */
     border-radius: 5px;                  /* Optional rounded corners */
+    background-color: white;             /* White background for the logo */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional shadow for a subtle effect */
 }
+
+
+
+.logo + .logo {
+  margin-top: 10px; /* space between the first and second logo */
+}
+
 
 
 /* How to Get Here Section Styling */
